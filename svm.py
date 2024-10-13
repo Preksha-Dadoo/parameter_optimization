@@ -37,22 +37,22 @@ for i in range(10):
     
     grid_search.fit(X_train, y_train)
     
-    best_params = grid_search.best_params_
+    best_par = grid_search.best_par_
     best_accuracy = grid_search.best_score_
     
     results.append({
         'Sample': f'S{i+1}',
         'Best Accuracy': best_accuracy,
-        'Best Parameters': best_params
+        'Best Parameters': best_par
     })
 
 results_df = pd.DataFrame(results)
 print(results_df)
 
 best_sample_index = results_df['Best Accuracy'].idxmax()
-best_params = results[best_sample_index]['Best Parameters']
+best_par = results[best_sample_index]['Best Parameters']
 
-best_svm = SVC(**best_params)
+best_svm = SVC(**best_par)
 
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.30, random_state=best_sample_index)
 
