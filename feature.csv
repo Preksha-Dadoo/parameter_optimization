@@ -1,0 +1,33 @@
+The Wine dataset consists of 13 chemical attributes (features) and 3 classes (types of wine):
+
+- **Features**:
+  - Alcohol
+  - Malic Acid
+  - Ash
+  - Alkalinity of Ash
+  - Magnesium
+  - Total Phenols
+  - Flavanoids
+  - Nonflavanoid Phenols
+  - Proanthocyanins
+  - Color Intensity
+  - Hue
+  - OD280/OD315 of diluted wines
+  - Proline
+
+- **Classes**: 
+  - Class 0: Barolo
+  - Class 1: Grignolino
+  - Class 2: Barbera
+
+## Data Analytics
+
+We performed basic data analysis and visualized the relationships between features:
+
+### Summary Statistics
+
+| Feature          | Mean  | Std    | Min    | Max    |
+|------------------|-------|--------|--------|--------|
+| Alcohol          | 13.00 | 0.79   | 11.03  | 14.83  |
+| Malic Acid       | 2.34  | 1.12   | 0.74   | 5.80   |
+| ...              | ...   | ...    | ...    | ...    |
