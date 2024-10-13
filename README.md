@@ -2,6 +2,14 @@
 
  It helps in finding the best set of parameters (or hyperparameters) for a machine learning model to maximize its performance. 
 
+# Project Overview
+
+The goal of this project is to:
+- Load the Wine dataset from UCI.
+- Divide the dataset into 70-30 training and testing splits.
+- Perform SVM optimization for 10 different samples using Grid Search.
+- Plot the convergence graph of the model's accuracy across iterations.
+
 #Licence
 
 ©️ 2024 Preksha Dadoo
