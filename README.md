@@ -10,7 +10,9 @@ The goal of this project is to:
 - Perform SVM optimization for 10 different samples using Grid Search.
 - Plot the convergence graph of the model's accuracy across iterations.
 
-#Licence
+![image](https://github.com/user-attachments/assets/1994959e-faa1-4732-ae97-bb5aba98d87a)
+
+# Licence
 
 ©️ 2024 Preksha Dadoo
 
