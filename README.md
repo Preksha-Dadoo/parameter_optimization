@@ -1,6 +1,6 @@
 # Parameter_optimization
 
- It helps in finding the best set of parameters (or hyperparameters) for a machine learning model to maximize its performance. 
+It helps in finding the best set of parameters (or hyperparameters) for a machine learning model to maximize its performance. 
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ The goal of this project is to:
  ```bash
 pip install -r requirements.txt
  ```
-3.Add your dataset (result.csv) to the project folder.
+3.Add your dataset (red-winequality.csv) to the project folder.
 
 4.Run the Jupyter Notebook
 
